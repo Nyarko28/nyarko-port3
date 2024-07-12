@@ -1,0 +1,224 @@
+
+body{
+    background-color: #f0f0f0;
+}
+.hobby
+{
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 2rem;
+   
+ 
+
+}
+.hob_box{
+    width: 47%;
+
+    margin: 1rem;
+    margin-top: 2rem;
+    background: white;
+    box-shadow: 4px 2px 12px ;
+   
+    
+}
+.hob_box h3{
+    padding-left: 2rem;
+
+}
+
+@keyframes color {
+    20%{
+        color: aqua;
+    }
+    40%{
+        color: red;
+    }
+    60%{
+        color: aqua;
+    }
+    80%{
+        color: red;
+    }
+}
+sup{
+    font-size: 12px;
+    color: blue;
+}
+.hob_box:last-child {
+   width: 100%;
+   position: relative;
+   box-shadow: none;
+  
+}
+.hob_box:last-child img{
+  object-fit: cover;
+  height: 70vh;
+}
+.hob_box:last-child  h3,.hob_box:last-child p{
+    z-index: 3;
+    position: absolute;
+   
+    
+    
+}
+.hob_box:last-child p{
+    top: 8rem;
+    left: 30%;
+    font-size: x-large;
+    text-shadow: 1px 2px 3px rgb(131, 131, 131);
+}
+.hob_box:last-child  h3{
+    top: 3rem;
+    text-align: center;
+  
+    left: 50%;
+    font-size: 3rem;
+}
+
+.hob_box:nth-child(3){
+    width: 80%;
+  justify-content: center;
+display: flex;
+gap: 20%;
+margin-top: 4rem;
+box-shadow:  1px 1px 10px ;
+padding: 2rem;
+margin-left: 10%;
+
+
+}
+.hob_box:nth-child(3) p:nth-child(1){
+width: 30%;
+font-size: 1.3rem;
+background-color: rgb(219, 229, 237);
+padding: 10px;
+box-shadow: inset -3px -3px 10px -4px;
+border-radius: 3px;}
+
+
+input{
+    display: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.book{
+    display: flex;
+   transform: skew(3deg) rotateY(13de);
+}
+
+.flip-book{
+    width: 250px;
+    height: 320px;
+    position: relative;
+    perspective: 1500px;
+    }
+    .flip{
+    box-shadow: 4px 4px 6px ,2px -4px 12px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transform-origin: left;
+    top: 0;
+    left: 0;
+    transform-style: preserve-3d;
+    transform: rotateY(0deg);
+    transition: .5s;
+    color: black;
+    
+    border-radius: 9px;
+}
+p{
+    font-size: 14px;
+    line-height: 24px;
+}
+.front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    box-sizing: border-box;
+    padding: 0 13px;
+    box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5) 0 2px 5px rgba(0, 0, 0, 0.5);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-right: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.p1 .front{
+background-color: rgb(30, 22, 22);
+}
+.p1 .front h2{
+    color: white;
+}
+.back{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    background: rgb(137, 220, 245);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+
+
+
+}
+.next-btn{
+ position: absolute;
+ bottom: 13px;
+ right: 13px;
+ cursor: pointer;
+ color: black;
+}
+.back-btn{
+ position: absolute;
+ bottom: 13px;
+ right: 13px;
+ cursor: pointer;
+ color: white;
+}
+.p1{
+    z-index: 3;
+    
+    border-bottom-right-radius: 30px;
+  
+
+    
+}
+.p2{
+    z-index: 2;
+    border-bottom-right-radius: 30px;
+
+}
+.p3{
+    z-index: 1;
+    border-bottom-right-radius: 30px;
+
+    
+}
+#c1:checked ~ .flip-book .p1{
+transform: rotateY(-180deg);
+z-index: 1;
+}
+#c2:checked ~ .flip-book .p2{
+transform: rotateY(-180deg);
+z-index: 2;
+}
+#c3:checked ~ .flip-book .p3{
+transform: rotateY(-180deg);
+z-index: 3;
+}
