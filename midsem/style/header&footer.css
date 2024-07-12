@@ -1,0 +1,74 @@
+.logo{
+          
+           
+    background: #c78f2e;
+    font-size: 2em;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    text-shadow:  2px 2px 3px #888;
+    
+}
+.logo span:nth-child(1){
+    color: #007bff;
+    font-size: 1.4em;
+    text-shadow: 2px 1px 2px #888;
+    
+}/* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com *//* this is the work of emmanuel nyarko 0534086538 
+emmanuelnyarko284@gmail.com */
+*{
+    padding-left: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    width: 100%;
+    background-color: rgb(138, 192, 239);
+    justify-content: space-around;
+   
+}
+nav{
+    display: flex;
+    padding: 19px;
+    gap: 2rem;
+}
+li{
+    list-style: none;
+}
+li a{
+    color: rgb(251, 252, 252);
+
+}
